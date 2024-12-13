@@ -24,5 +24,13 @@ Successfully synthesized.
 
 
 
+designs/picorv32a/runs/results
+
+
+
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/9dddeaf2-f724-4873-94db-484a6b3c112b" />
+
+
+
 
 
