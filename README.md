@@ -20,7 +20,8 @@ The docker contains all the pre installed tools
 
 Successfully synthesized.
 
-<img width="369" alt="image" src="https://github.com/user-attachments/assets/c7220216-3108-4382-b0a4-e89b3594abbb" />
+<img width="405" alt="image" src="https://github.com/user-attachments/assets/66fec57e-aa8a-4948-a424-0adc05e3dc99" />
+
 
 
 
