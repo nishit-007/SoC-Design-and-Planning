@@ -78,6 +78,12 @@ During this stage mulltiple power supplies are placed in the chip for proper fun
 
 Optimal pin placement for less power consumption.
 
+<details>
+<summary>Day 2 Lab</summary>
+ Run the floor plan command :
+ ```run_floorlan```
+</details>
+
 
 
 
