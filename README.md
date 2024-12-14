@@ -81,7 +81,9 @@ Optimal pin placement for less power consumption.
 <details>
 <summary>Day 2 Lab</summary>
  Run the floor plan command :
- ```run_floorlan```
+ ```
+ run_floorplan
+ ```
 </details>
 
 
