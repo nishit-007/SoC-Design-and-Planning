@@ -69,6 +69,15 @@ Pre placed cells allows the granulizing of a larger design for usage whenever re
 
 Decoupling capacitors are placed locally around the pre-placed cells. The decoupling capacitor is a large capacitor completely full of charge whose voltage is equivalent to the power supply. During switching activity the decoupling capacitor decouples the circuit from the main supply and provides the necessary voltage required by the pre placed cells.
 
+**Power Planning :**
+
+During this stage mulltiple power supplies are placed in the chip for proper functioning.All the coupling capacitors present in the circuit demand the power supply simultaneously  which results in noise in the circuit due to voltage droop or ground bounce.
+
+
+**Pin Placement :**
+
+Optimal pin placement for less power consumption.
+
 
 
 
