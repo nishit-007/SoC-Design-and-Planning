@@ -12,7 +12,7 @@ The Process Design Kit (pdk) acts as an interface between the fab and the design
 
 <details>
 <summary>Day 1  Lab</summary>
-<br>
+ 
 Directory structure : Desktop/work/tools/openlane_working_dir/openlane
 
 The docker contains all the pre installed tools
