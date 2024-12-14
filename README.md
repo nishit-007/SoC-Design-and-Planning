@@ -47,6 +47,22 @@ Verified it with stats report
 
 <img width="595" alt="image" src="https://github.com/user-attachments/assets/a4308e3a-3f5b-49f6-9f45-3fd89b2c7ff8" />
 
+****
+## Day 2 : Floorplanning , Placement and Library cells
+
+**Floorplanning**
+
+
+During floor planning a number of parameters are to be set. A well defined floor plan leads to an ASIC design with high performance and optimum area. 
+
+**Concept of Pre Placed cell :**
+
+Pre placed cells allows the granulizing of a larger design for usage whenever required in the design. Pre placed cells or Macros and IP's have user defined loactions and hence are placed on the chip before automated placement and routing. The pre placed are implemented once and can be used mulitiple times in the netlist.
+
+**Decoupled Capacitors :**
+
+
+Decoupling capacitors are placed locally around the pre-placed cells. The decoupling capacitor is a large capacitor completely full of charge whose voltage is equivalent to the power supply. During switching activity the decoupling capacitor decouples the circuit from the main supply and provides the necessary voltage required by the pre placed cells.
 
 
 
