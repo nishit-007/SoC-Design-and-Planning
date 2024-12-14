@@ -85,6 +85,17 @@ Optimal pin placement for less power consumption.
  ```
    run_floorplan
  ```
+
+<img width="852" alt="image" src="https://github.com/user-attachments/assets/1c396a24-3f3a-4258-a0da-b25d0f14f680" />
+
+
+<img width="847" alt="image" src="https://github.com/user-attachments/assets/84d68b47-7215-4708-8aa8-7d94335ecd41" />
+
+
+<img width="935" alt="image" src="https://github.com/user-attachments/assets/6f162ff2-9fff-458d-8261-59d2b474824f" />
+
+
+
 </details>
 
 
