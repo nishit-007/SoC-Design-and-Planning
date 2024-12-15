@@ -95,6 +95,7 @@ Optimal pin placement for less power consumption.
 <img width="935" alt="image" src="https://github.com/user-attachments/assets/6f162ff2-9fff-458d-8261-59d2b474824f" />
 
 **Command to open Magic**
+
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/1638623b-20a6-490e-9399-37c91bd91d2b" />
 
 **Port Layers**
@@ -115,7 +116,7 @@ Optimal pin placement for less power consumption.
  run_placement
 ```
 
-**Command for Magic for visualization **
+**Command for Magic for visualization**
 
 <img width="948" alt="image" src="https://github.com/user-attachments/assets/fe5b44db-c08d-43ed-99d3-d9231d9861c6" />
 
