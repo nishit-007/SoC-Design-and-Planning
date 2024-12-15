@@ -98,8 +98,9 @@ Optimal pin placement for less power consumption.
 <br>
 <br>
 <br>
-**Command to open Magic**
 
+
+**Command to open Magic**
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/1638623b-20a6-490e-9399-37c91bd91d2b" />
 
 **Port Layers**
