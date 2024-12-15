@@ -126,7 +126,7 @@ Optimal pin placement for less power consumption.
 <img width="948" alt="image" src="https://github.com/user-attachments/assets/fe5b44db-c08d-43ed-99d3-d9231d9861c6" />
 
 **Placement Layout**
-
+ 
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/4daa465b-b817-4511-8b3e-768c1bec00d8" />
 
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/2bad9872-8dba-405f-85d9-3c5439d6e0f6" />
