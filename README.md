@@ -94,6 +94,41 @@ Optimal pin placement for less power consumption.
 
 <img width="935" alt="image" src="https://github.com/user-attachments/assets/6f162ff2-9fff-458d-8261-59d2b474824f" />
 
+**Command to open Magic**
+
+<img width="904" alt="image" src="https://github.com/user-attachments/assets/1638623b-20a6-490e-9399-37c91bd91d2b" />
+
+**Port Layers**
+
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/af908103-c2ee-4a26-96e0-b3f1244983ae" />
+
+**Decap and Tap Cells**
+
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/f79cc5d7-c19a-4fdf-b2fa-afe0450ce6e6" />
+
+**Unplaced Standard Cells**
+
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/4f6b42f1-a21b-4d58-87e8-84bb152e11a4" />
+
+**Placement**
+
+```
+ run_placement
+```
+
+**Command for Magic for visualization **
+
+<img width="948" alt="image" src="https://github.com/user-attachments/assets/fe5b44db-c08d-43ed-99d3-d9231d9861c6" />
+
+**Placement Layout**
+
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/4daa465b-b817-4511-8b3e-768c1bec00d8" />
+
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/2bad9872-8dba-405f-85d9-3c5439d6e0f6" />
+
+
+
+
 
 
 </details>
