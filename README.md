@@ -78,6 +78,7 @@ During this stage mulltiple power supplies are placed in the chip for proper fun
 
 Optimal pin placement for less power consumption.
 
+****
 <details>
 <summary>Day 2 Lab</summary>
  Run the floor plan command :
@@ -93,18 +94,9 @@ Optimal pin placement for less power consumption.
 
 
 <img width="935" alt="image" src="https://github.com/user-attachments/assets/6f162ff2-9fff-458d-8261-59d2b474824f" />
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
-**Command to open Magic**
-<img width="950" alt="image" src="https://github.com/user-attachments/assets/d54671ba-f106-4c43-bb09-3286ec8f48d8" />
-
-
-**Port Layers**
+**Port Layers in MAGIC for visualization**
 
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/af908103-c2ee-4a26-96e0-b3f1244983ae" />
 
@@ -131,11 +123,6 @@ Optimal pin placement for less power consumption.
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/4daa465b-b817-4511-8b3e-768c1bec00d8" />
 
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/2bad9872-8dba-405f-85d9-3c5439d6e0f6" />
-
-
-
-
-
 
 </details>
 
