@@ -156,12 +156,19 @@ The characterisation flow is :
 **16 Mask CMOS Process**
 
 1. Selecting a substrate.
+
 2 . Creating active regions for transistors.
+
 3 . Formation of N-well and P-well.
+
 4 . Formation of the gate.
+
 5 . Formation of lightly doped drain (LDD).
+
 6 . Source and drain formation.
+
 7 . Formation of contacts and local interconnects.
+
 8 . Higher-level metal formation.
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/47caa765-23c2-4d55-b9e5-6d484c306b39" />
