@@ -142,9 +142,95 @@ The characterisation flow is :
 </details>
 
 ****
-**Day 3 : Design Library Cells and ngspice Characterisation**
+## Day 3 : Design Library Cells and ngspice Characterisation
 
-*Day 3 : Theory*
+**16 Mask CMOS Process**
+
+1. Selecting a substrate.
+2 . Creating active regions for transistors.
+3 . Formation of N-well and P-well.
+4 . Formation of the gate.
+5 . Formation of lightly doped drain (LDD).
+6 . Source and drain formation.
+7 . Formation of contacts and local interconnects.
+8 . Higher-level metal formation.
+
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/47caa765-23c2-4d55-b9e5-6d484c306b39" />
+
+****
+<details>
+<summary>Day 3 Lab</summary>
+
+ Configure the vsdstdcelldesign directory
+ ![day 3(2)](https://github.com/user-attachments/assets/c74b212f-1764-44b9-afec-5b875de4c486)
+
+View the inverter design in MAGIC
+ ![magic vsdstdcell](https://github.com/user-attachments/assets/b81e92f0-50dd-412c-b7f4-048059962c46)
+
+Extract the inverter to spice
+![extract ngspice(1)](https://github.com/user-attachments/assets/85856e91-c01b-433d-991c-ada55df7c4ec)
+
+![extract ngspice](https://github.com/user-attachments/assets/41b7707f-081b-4fee-9773-c03c8a2e6fe9)
+
+spice3file created
+![ngspice(3)](https://github.com/user-attachments/assets/fa061123-a3f8-4a30-826e-46b20346edd0)
+
+Run NGSpice simulation and plot y vs time a
+![rise transition](https://github.com/user-attachments/assets/9ceeebce-00b7-46cc-b12e-6eb387b30559)
+
+Transient Response
+![trans(2)](https://github.com/user-attachments/assets/2420b69a-4f61-4fcd-88cf-81506ecb5251)
+
+Now we Calculate the following parameters
+**Rise Transition Time:**
+
+The time taken for the output waveform to transition from 20% to 80% of its maximum value.
+```
+ Using data points:
+ x0 = 2.18543e-09, y0 = 0.660022
+ x1 = 2.2575e-09, y1 = 2.63969
+ Rise time = x1 - x0 = 0.07207 ns
+```
+**Fall Transition Time:**
+
+The time taken for the output waveform to transition from 80% to 20% of its maximum value.
+``` 
+ Using data points:
+ x0 = 4.05579e-09, y0 = 2.64003
+ x1 = 4.09788e-09, y1 = 0.659969
+ Fall time = x1 - x0 = 0.04209 ns
+```
+**Rise Cell Delay:**
+
+The time taken for a 50% transition at the output corresponding to a 50% fall at the input.
+```
+ Using data points:
+ x0 = 2.15e-09, y0 = 1.65
+ x1 = 2.21647e-09, y1 = 1.65
+ Rise Cell Delay = x1 - x0 = 0.06647ns
+```
+**Fall Cell Delay:**
+
+The time taken for a 50% fall at the output corresponding to a 50% rise at the input.
+```
+ Using data points:
+ x0 = 4.05e-09, y0 = 1.64994
+ x1 = 4.08055e-09, y1 = 1.64994
+ Fall Cell delay = x1 - x0 = 0.03055 ns
+```
+Open the lab files
+![drc](https://github.com/user-attachments/assets/cffce6ac-61ad-4fc4-8460-cae7fe2aec4d)
+
+Open the magic.crc file in VIM Editor
+![2](https://github.com/user-attachments/assets/4224a6c1-10c6-4db5-84e4-f150a1c938e7)
+
+Open empty magic layout
+![empty magic](https://github.com/user-attachments/assets/a7426cd6-08b6-4679-9ecc-157da4c3d03f)
+
+
+</details>
+
+
 
 
 
