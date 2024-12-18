@@ -79,6 +79,21 @@ During this stage mulltiple power supplies are placed in the chip for proper fun
 Optimal pin placement for less power consumption.
 
 ****
+**Cell Design Flow And Characterisation**
+****
+Standard cell library contains cells with different threshold voltages and different sizes.They are characterised using the software GUNA.
+
+The characterisation flow is :
+
+1 . Read the model file
+2 . Read the extracted spice netlist
+3 . Recognize the behavior of the buffer
+4 . Read the sub circuit of buffer
+5 . Read in the necessary power supply
+6 . Apply the stimulus
+7 . Provide the necessary output capacitances
+8 . Provide the necessary simulation command
+9 . Feed in the characterisation file containing steps 1-8 into the GUNA software whose output is .lib file containing the timing, noise and power characterization
 <details>
 <summary>Day 2 Lab</summary>
  Run the floor plan command :
@@ -125,6 +140,11 @@ Optimal pin placement for less power consumption.
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/2bad9872-8dba-405f-85d9-3c5439d6e0f6" />
 
 </details>
+
+****
+**Day 3 : Design Library Cells and ngspice Characterisation**
+
+*Day 3 : Theory*
 
 
 
