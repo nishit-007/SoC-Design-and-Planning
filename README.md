@@ -242,6 +242,27 @@ Open the magic.crc file in VIM Editor
 Open empty magic layout
 ![empty magic](https://github.com/user-attachments/assets/a7426cd6-08b6-4679-9ecc-157da4c3d03f)
 
+Magic layout after adding a new rule for poly.9 in the sky130A.tech file and performing DRC check
+
+![VirtualBox_VSDWorkshop_17_12_2024_21_38_36](https://github.com/user-attachments/assets/e8bccbac-9067-41f7-82e4-2fc984a5cded)
+
+Now adding a new rule for  ```        
+                             nwell.4
+                             ```
+                             in the ```
+                                      sky130A.tech 
+                                    ```  file.
+ ![VirtualBox_VSDWorkshop_17_12_2024_22_25_10](https://github.com/user-attachments/assets/8dd93111-56d2-4d2b-8424-170219b55788)
+
+![VirtualBox_VSDWorkshop_17_12_2024_22_26_51](https://github.com/user-attachments/assets/73278029-9580-4e20-a1f3-47d353d180e5)
+
+Reloading and performing DRC check
+![VirtualBox_VSDWorkshop_17_12_2024_22_00_50](https://github.com/user-attachments/assets/73d02ddd-0607-4459-8da4-ee843d7330fc)
+![VirtualBox_VSDWorkshop_17_12_2024_22_23_11](https://github.com/user-attachments/assets/4ffba5fc-4fe7-46a3-9ac0-01900c53b93e)
+
+                          
+
+
 
 </details>
 
