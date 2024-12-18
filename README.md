@@ -86,14 +86,23 @@ Standard cell library contains cells with different threshold voltages and diffe
 The characterisation flow is :
 
 1 . Read the model file
+
 2 . Read the extracted spice netlist
+
 3 . Recognize the behavior of the buffer
+
 4 . Read the sub circuit of buffer
+
 5 . Read in the necessary power supply
+
 6 . Apply the stimulus
+
 7 . Provide the necessary output capacitances
+
 8 . Provide the necessary simulation command
+
 9 . Feed in the characterisation file containing steps 1-8 into the GUNA software whose output is .lib file containing the timing, noise and power characterization
+
 <details>
 <summary>Day 2 Lab</summary>
  Run the floor plan command :
