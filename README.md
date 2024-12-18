@@ -154,7 +154,6 @@ The characterisation flow is :
 ## Day 3 : Design Library Cells and ngspice Characterisation
 
 **16 Mask CMOS Process**
-
 1. Selecting a substrate.
 
 2 . Creating active regions for transistors.
