@@ -6,7 +6,8 @@ This repository is about the 14 day workshop conducted by VSD-IAT on Physical De
 
 <details>
 <summary>Day 1  Theory</summary>
- 
+
+<br>
 **OpenLANE ASIC Design Flow** 
 
 The three components of an ASIC are RTL IPs , EDA Tools and PDK Data.
@@ -66,7 +67,8 @@ Verified it with stats report
 
 <details>
 <summary>Day 2 Theory</summary>
- 
+
+<br>
 **Floorplanning**
 
 
@@ -170,7 +172,8 @@ The characterisation flow is :
 ****
 <details>
 <summary>Day 3  Theory</summary>
- 
+
+<br>
 **16 Mask CMOS Process**
 1. Selecting a substrate.
 
@@ -293,6 +296,7 @@ Reloading and performing DRC check
 <details>
 <summary>Day 4 Theory</summary>
 
+<br>
 **Delay Tables in Power-Aware Clock Tree Synthesis**
 
 It shows the relation between the output load and input slew for each buffer.
@@ -417,7 +421,7 @@ Post - STA Analysis
 
 <details>
 <summary>Day 5 Theory</summary>
-
+<br>
  **Global and Detailed Routing using TritonRoute**
 
  ![image](https://github.com/user-attachments/assets/4a990392-bdbb-49a5-bbb8-2a52e72c715d)
@@ -436,7 +440,9 @@ Post - STA Analysis
 
 <details>
 <summary>Day 5 Lab</summary>
+ 
 **PDN (Power Distribution Network)**
+
  ``` gen_pdn ```
  
  ![VirtualBox_VSDWorkshop_21_12_2024_09_14_07](https://github.com/user-attachments/assets/69099568-9121-4216-b800-6382ea73e874)
