@@ -8,6 +8,7 @@ This repository is about the 14 day workshop conducted by VSD-IAT on Physical De
 <summary>Day 1  Theory</summary>
 
 <br>
+
 **OpenLANE ASIC Design Flow** 
 
 The three components of an ASIC are RTL IPs , EDA Tools and PDK Data.
@@ -69,6 +70,7 @@ Verified it with stats report
 <summary>Day 2 Theory</summary>
 
 <br>
+
 **Floorplanning**
 
 
@@ -174,7 +176,9 @@ The characterisation flow is :
 <summary>Day 3  Theory</summary>
 
 <br>
+
 **16 Mask CMOS Process**
+
 1. Selecting a substrate.
 
 2 . Creating active regions for transistors.
@@ -267,12 +271,8 @@ Magic layout after adding a new rule for poly.9 in the sky130A.tech file and per
 
 ![VirtualBox_VSDWorkshop_17_12_2024_21_38_36](https://github.com/user-attachments/assets/e8bccbac-9067-41f7-82e4-2fc984a5cded)
 
-Now adding a new rule for  ```        
-                             nwell.4
-                             ```
-                             in the ```
-                                      sky130A.tech 
-                                    ```  file.
+Now adding a new rule for  ``` nwell.4 ``` in the ```sky130A.tech ``` file
+
  ![VirtualBox_VSDWorkshop_17_12_2024_22_25_10](https://github.com/user-attachments/assets/8dd93111-56d2-4d2b-8424-170219b55788)
 
 ![VirtualBox_VSDWorkshop_17_12_2024_22_26_51](https://github.com/user-attachments/assets/73278029-9580-4e20-a1f3-47d353d180e5)
@@ -297,6 +297,7 @@ Reloading and performing DRC check
 <summary>Day 4 Theory</summary>
 
 <br>
+
 **Delay Tables in Power-Aware Clock Tree Synthesis**
 
 It shows the relation between the output load and input slew for each buffer.
@@ -422,6 +423,7 @@ Post - STA Analysis
 <details>
 <summary>Day 5 Theory</summary>
 <br>
+ 
  **Global and Detailed Routing using TritonRoute**
 
  ![image](https://github.com/user-attachments/assets/4a990392-bdbb-49a5-bbb8-2a52e72c715d)
