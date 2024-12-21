@@ -6,6 +6,7 @@ This repository is about the 14 day workshop conducted by VSD-IAT on Physical De
 
 <details>
 <summary>Day 1  Theory</summary>
+ 
 **OpenLANE ASIC Design Flow** 
 
 The three components of an ASIC are RTL IPs , EDA Tools and PDK Data.
@@ -62,6 +63,9 @@ Verified it with stats report
 ****
 ## Day 2 : Floorplanning , Placement and Library cells
 
+<details>
+<summary>Day 2 Theory</summary>
+ 
 **Floorplanning**
 
 
@@ -109,6 +113,9 @@ The characterisation flow is :
 8 . Provide the necessary simulation command
 
 9 . Feed in the characterisation file containing steps 1-8 into the GUNA software whose output is .lib file containing the timing, noise and power characterization
+</details>
+
+****
 
 <details>
 <summary>Day 2 Lab</summary>
@@ -160,6 +167,10 @@ The characterisation flow is :
 ****
 ## Day 3 : Design Library Cells and ngspice Characterisation
 
+****
+<details>
+<summary>Day 3  Theory</summary>
+ 
 **16 Mask CMOS Process**
 1. Selecting a substrate.
 
@@ -178,7 +189,7 @@ The characterisation flow is :
 8 . Higher-level metal formation.
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/47caa765-23c2-4d55-b9e5-6d484c306b39" />
-
+</details>
 ****
 <details>
 <summary>Day 3 Lab</summary>
