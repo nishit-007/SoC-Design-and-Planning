@@ -3,7 +3,11 @@
 
 **This Repository is about the 14 day Workshop conducted by VSD-IAT on Physical Design using the Open Source EDA Tool OpenLANE and Open Source pdk Skywater 130nm.**
 
+****
+
 ## Day 1 : Inception of open source EDA , OpenLANE and sky130pdk
+
+****
 
 <details>
 <summary>Day 1  Theory</summary>
@@ -66,6 +70,8 @@ Verified it with stats report
 
 ****
 ## Day 2 : Floorplanning , Placement and Library cells
+
+****
 
 <details>
 <summary>Day 2 Theory</summary>
