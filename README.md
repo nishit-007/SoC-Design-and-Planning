@@ -79,7 +79,7 @@ During floor planning a number of parameters are to be set. A well defined floor
 
 **Concept of Pre Placed cell :**
 
-Pre placed cells allows the granulizing of a larger design for usage whenever required in the design. Pre placed cells or Macros and IP's have user defined loactions and hence are placed on the chip before automated placement and routing. The pre placed are implemented once and can be used mulitiple times in the netlist.
+Pre placed cells allow the granulizing of a larger design for usage whenever required in the design. Pre placed cells or Macros and IP's have user defined locations and hence are placed on the chip before automated placement and routing. The pre placed are implemented once and can be used mulitiple times in the netlist.
 
 **Decoupled Capacitors :**
 
@@ -88,7 +88,7 @@ Decoupling capacitors are placed locally around the pre-placed cells. The decoup
 
 **Power Planning :**
 
-During this stage mulltiple power supplies are placed in the chip for proper functioning.All the coupling capacitors present in the circuit demand the power supply simultaneously  which results in noise in the circuit due to voltage droop or ground bounce.
+During this stage multiple power supplies are placed in the chip for proper functioning.All the coupling capacitors present in the circuit demand the power supply simultaneously which results in noise in the circuit due to voltage droop or ground bounce.
 
 
 **Pin Placement :**
@@ -174,7 +174,7 @@ The characterisation flow is :
 
 ****
 <details>
-<summary>Day 3  Theory</summary>
+<summary>Day 3 Theory</summary>
 
 <br>
 
