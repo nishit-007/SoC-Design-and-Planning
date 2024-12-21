@@ -39,6 +39,7 @@ designs/picorv32a/runs/results
 
 <img width="599" alt="image" src="https://github.com/user-attachments/assets/9dddeaf2-f724-4873-94db-484a6b3c112b" />
 
+```
 Here , the Number of Cells = 14876
 
 Number of Flip Flops = 1613
@@ -46,6 +47,7 @@ Number of Flip Flops = 1613
  Flop Ratio = Number of Flip Flops / Number of Cells
   
 Therefore , Flop ratio = 0.1084 or 10.84 %
+```
 
 Files created on Dec 12 19:29
 
