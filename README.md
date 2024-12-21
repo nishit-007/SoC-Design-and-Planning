@@ -190,6 +190,7 @@ The characterisation flow is :
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/47caa765-23c2-4d55-b9e5-6d484c306b39" />
 </details>
+
 ****
 <details>
 <summary>Day 3 Lab</summary>
@@ -283,6 +284,143 @@ Reloading and performing DRC check
 
 
 </details>
+
+****
+
+**Day 4 : Pre - Layout Timing Analysis and Importance of good Clock Tree**
+
+<details>
+<summary>Day 4 Theory</summary>
+
+**Delay Tables in Power-Aware Clock Tree Synthesis**
+
+It shows the relation between the output load and input slew for each buffer.
+
+They are used to model the behaviour of standard cells , macros and other components.
+
+**Setup Timing Analysis (Real Clock)**
+
+The setup condition is (Δ1 + Θ < T + Δ2 - S -S.U )
+
+( Δ1 ): Launch flop delay.
+( Δ2 ): Capture flop delay.
+( |Δ1 - Δ2| ): Clock slew.
+(Θ) : Combinational Delay between launch and capture flip flops.
+(T) : Clock Time.
+(S) : Setup Time.
+(SU) : Setup Uncertainty
+
+**Hold Timing Conditions**
+
+With real clocks, the condition becomes: [ Θ + Δ1 > H + Δ2 + HU ]
+
+Slack : Data Arrival Time - Data Required Time
+
+</details>
+
+<details>
+<summary>Day 4 Lab</summary>
+
+ The following command is fed in the Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign directory
+```
+   magic -T sky130A.tech sky130_inv.mag &
+```
+![mag file](https://github.com/user-attachments/assets/97448b21-6b0b-4ea7-8341-c898a05175af)
+
+
+In the Tkcon window : 
+
+```
+   help grid
+```
+
+```
+   grid 0.46um 0.34um 0.23um 0.17um
+```
+![VirtualBox_VSDWorkshop_19_12_2024_12_03_27](https://github.com/user-attachments/assets/26d45fc9-2af4-47a5-bd5d-f6b87209a2e2)
+
+![VirtualBox_VSDWorkshop_19_12_2024_12_04_27](https://github.com/user-attachments/assets/75ff36c0-7819-4634-9d6d-b2e9c7b01716)
+
+Save the layout with a custom name
+![VirtualBox_VSDWorkshop_19_12_2024_12_26_52](https://github.com/user-attachments/assets/ba11dd8a-8600-40bc-9069-ec03784e3129)
+
+Generate the LEF file
+![VirtualBox_VSDWorkshop_19_12_2024_12_29_43](https://github.com/user-attachments/assets/60893658-6643-4f8d-b9f3-a3388530cf3f)
+
+Verifying the LEF file
+![VirtualBox_VSDWorkshop_19_12_2024_12_32_34](https://github.com/user-attachments/assets/234acb49-369a-46c3-9375-13c873138404)
+
+Copying the new LEF files along with the libraries to the following directory
+![VirtualBox_VSDWorkshop_19_12_2024_12_46_49](https://github.com/user-attachments/assets/cd3b14f2-df8b-439c-981a-d30112ff0fb6)
+
+Edit the  ``` config.tcl ``` file
+![VirtualBox_VSDWorkshop_19_12_2024_12_58_26](https://github.com/user-attachments/assets/ff5f945c-4f67-43b0-a45c-82a68f044116)
+
+RUN The Synthesis followed by 2 new commands
+```
+   set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+   add_lefs -src $lefs
+```
+![VirtualBox_VSDWorkshop_19_12_2024_13_10_43](https://github.com/user-attachments/assets/5596d28b-9f4d-442f-8b52-f0abc5713cca)
+![VirtualBox_VSDWorkshop_19_12_2024_13_12_29](https://github.com/user-attachments/assets/57e9e665-0c89-40a5-addf-0e2e78f6f47a)
+
+Changing the values of some variables : 
+```
+    set ::env(SYNTH_STRATEGY) "DELAY 3"
+    set ::env(SYNTH_SIZING) 1
+ ```
+``` run_synthesis ```
+![VirtualBox_VSDWorkshop_19_12_2024_13_42_27](https://github.com/user-attachments/assets/e8d8c34c-2b23-4f62-a3dd-c494655c190e)
+
+```
+    init_floorplan 
+    place_io
+    tap_decap_or
+```
+![VirtualBox_VSDWorkshop_19_12_2024_15_01_35](https://github.com/user-attachments/assets/3d7ac2e7-2f45-45ce-bd9c-5bfc7efdf62d)
+
+![VirtualBox_VSDWorkshop_19_12_2024_15_03_49](https://github.com/user-attachments/assets/246d8626-232b-47f6-a294-bcf7886a2af6)
+
+``` run_placement ```
+
+![VirtualBox_VSDWorkshop_19_12_2024_15_05_19](https://github.com/user-attachments/assets/8eed86f9-a22c-470f-9023-de3d004d5cf8)
+
+View the placement.def file in MAGIC
+![VirtualBox_VSDWorkshop_19_12_2024_15_09_37](https://github.com/user-attachments/assets/c90cedab-84bd-4b8d-9cc6-eaf6f8859e16)
+![VirtualBox_VSDWorkshop_19_12_2024_15_12_05](https://github.com/user-attachments/assets/f384ed33-74a8-494f-979b-21e570efd41d)
+![VirtualBox_VSDWorkshop_19_12_2024_15_14_09 - Copy](https://github.com/user-attachments/assets/52f048dd-68bb-4068-9ed9-1bcc21e97177)
+
+``` sta pre_sta.conf ```
+
+Post - STA Analysis
+![VirtualBox_VSDWorkshop_19_12_2024_17_27_51](https://github.com/user-attachments/assets/039219cd-a9fa-4b0f-aad5-7d96a642eb3c)
+
+``` run_cts ```
+![run cts](https://github.com/user-attachments/assets/ca5721b5-013e-4d40-a39a-abcb56be3c12)
+
+![VirtualBox_VSDWorkshop_19_12_2024_19_40_28](https://github.com/user-attachments/assets/f576210c-7a3f-40f4-91f8-8b4707858ed8)
+
+</details>
+
+****
+
+**Day 5 : Final Steps for RTL 2 GDS**
+
+<details>
+<summary>Day 5 Theory</summary>
+ 
+</details>
+
+<details>
+<summary>Day 5 Lab</summary>
+
+</details>
+
+
+
+
+
+
 
 
 
