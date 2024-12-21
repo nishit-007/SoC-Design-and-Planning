@@ -16,7 +16,6 @@ The Process Design Kit (pdk) acts as an interface between the fab and the design
 
 </details>
 
-****
 
 <details>
 <summary>Day 1  Lab</summary>
@@ -115,7 +114,6 @@ The characterisation flow is :
 9 . Feed in the characterisation file containing steps 1-8 into the GUNA software whose output is .lib file containing the timing, noise and power characterization
 </details>
 
-****
 
 <details>
 <summary>Day 2 Lab</summary>
@@ -191,7 +189,6 @@ The characterisation flow is :
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/47caa765-23c2-4d55-b9e5-6d484c306b39" />
 </details>
 
-****
 <details>
 <summary>Day 3 Lab</summary>
 
@@ -303,11 +300,17 @@ They are used to model the behaviour of standard cells , macros and other compon
 The setup condition is (Δ1 + Θ < T + Δ2 - S -S.U )
 
 ( Δ1 ): Launch flop delay.
+
 ( Δ2 ): Capture flop delay.
+
 ( |Δ1 - Δ2| ): Clock slew.
+
 (Θ) : Combinational Delay between launch and capture flip flops.
+
 (T) : Clock Time.
+
 (S) : Setup Time.
+
 (SU) : Setup Uncertainty
 
 **Hold Timing Conditions**
@@ -408,15 +411,63 @@ Post - STA Analysis
 
 <details>
 <summary>Day 5 Theory</summary>
+
+ **Global and Detailed Routing using TritonRoute**
+
+ ![image](https://github.com/user-attachments/assets/4a990392-bdbb-49a5-bbb8-2a52e72c715d)
+
+ ![image](https://github.com/user-attachments/assets/117c8870-9c9b-4f2b-85cb-f7fadb756fd5)
+
+ ![image](https://github.com/user-attachments/assets/4bd0b245-dbc3-4a69-baf3-6898a9733b28)
+
+ ![image](https://github.com/user-attachments/assets/8fa489d3-0269-407a-8c64-4e8d5eca13a5)
+
+ ![image](https://github.com/user-attachments/assets/e24f990c-ff62-4c90-9ac2-7db0c0f42f2a)
+
+
  
 </details>
 
 <details>
 <summary>Day 5 Lab</summary>
+**PDN (Power Distribution Network)**
+ ``` gen_pdn ```
+ 
+ ![VirtualBox_VSDWorkshop_21_12_2024_09_14_07](https://github.com/user-attachments/assets/69099568-9121-4216-b800-6382ea73e874)
+
+ Loading THE PDN in MAGIC
+ ![VirtualBox_VSDWorkshop_21_12_2024_09_19_24](https://github.com/user-attachments/assets/de921877-11e2-4a6e-99a4-f7a6f28fdd90)
+ ![VirtualBox_VSDWorkshop_21_12_2024_09_19_58](https://github.com/user-attachments/assets/f5234c03-a920-4aeb-bdb8-a20e9a0d2634)
+ ![after gen-pdn](https://github.com/user-attachments/assets/8a86a8f0-74ae-4a0a-b781-88317f858baa)
+
+ 
+``` run_routing ```
+![VirtualBox_VSDWorkshop_21_12_2024_09_21_40](https://github.com/user-attachments/assets/b192f83b-8d25-4acb-8f7c-eb7a351f9694)
+![VirtualBox_VSDWorkshop_21_12_2024_09_42_31](https://github.com/user-attachments/assets/588445a0-4e5d-4926-a74e-22dd258a46b7)
+![VirtualBox_VSDWorkshop_21_12_2024_10_01_16](https://github.com/user-attachments/assets/aa7fddfe-5a5c-4a83-bec1-02986104b3ad)
+
+Routed def FILE IN MAGIC
+![VirtualBox_VSDWorkshop_21_12_2024_09_45_46](https://github.com/user-attachments/assets/3222471f-82d7-4788-b539-921c1e55e3fc)
+![VirtualBox_VSDWorkshop_21_12_2024_09_48_48](https://github.com/user-attachments/assets/007371cd-5d97-45a2-8de9-2110925639a0)
+![VirtualBox_VSDWorkshop_21_12_2024_09_49_34](https://github.com/user-attachments/assets/fc6732f2-c0b5-4934-af64-50ce4c918b23)
+
+**Timing Analysis**
+
+Using Open STA 
+![VirtualBox_VSDWorkshop_21_12_2024_10_28_48](https://github.com/user-attachments/assets/0b0c471e-2adc-4035-b7ff-bdd9862cb719)
+![VirtualBox_VSDWorkshop_21_12_2024_10_29_35](https://github.com/user-attachments/assets/4a2ee0a3-f96f-4c45-b6db-feb2ab312e24)
 
 </details>
 
+****
 
+**Acknowledgements**
+
+1. [Kunal Ghosh](https://github.com/kunalg123)
+
+2. [Nickson Jose](https://github.com/nickson-jose)
+
+3. [Timothy Edwards](https://github.com/RTimothyEdwards)
 
 
 
