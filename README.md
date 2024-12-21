@@ -286,7 +286,9 @@ Reloading and performing DRC check
 
 ****
 
-**Day 4 : Pre - Layout Timing Analysis and Importance of good Clock Tree**
+## Day 4 : Pre - Layout Timing Analysis and Importance of good Clock Tree
+
+****
 
 <details>
 <summary>Day 4 Theory</summary>
@@ -409,7 +411,9 @@ Post - STA Analysis
 
 ****
 
-**Day 5 : Final Steps for RTL 2 GDS**
+## Day 5 : Final Steps for RTL 2 GDS
+
+****
 
 <details>
 <summary>Day 5 Theory</summary>
