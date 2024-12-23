@@ -296,7 +296,7 @@ Reloading and performing DRC check
 
 ****
 
-## Day 4 : Pre - Layout Timing Analysis and Importance of good Clock Tree
+## Day 4 : Pre - Layout Timing Analysis and Importance of a good Clock Tree
 
 ****
 
