@@ -1,7 +1,7 @@
 
 # Digital VLSI SoC Design And Planning
 
-**This Repository is about the 14 day Workshop conducted by VSD-IAT on Physical Design using the Open Source EDA Tool OpenLANE and Open Source pdk Skywater 130nm.**
+**This Repository is about the 14 day Workshop on Physical Design using the Open Source EDA Tool OpenLANE and the Open Source pdk Skywater 130nm.**
 
 ****
 
