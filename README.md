@@ -112,7 +112,7 @@ The characterisation flow is :
 
 2 . Read the extracted spice netlist
 
-3 . Recognize the behavior of the buffer
+3 . Recognize the behaviour of the buffer
 
 4 . Read the sub circuit of buffer
 
